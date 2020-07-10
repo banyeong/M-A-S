@@ -1,7 +1,0 @@
-근력 : MslStr
-
-도력 : MoralStr
-
-재력 : Wealth
-
-호감도 : Favorability

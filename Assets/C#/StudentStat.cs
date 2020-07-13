@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StudentStat : MonoBehaviour
+public class StudentStat
 {
     public static StudentStat instance;
 

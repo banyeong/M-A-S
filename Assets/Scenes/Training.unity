@@ -148,17 +148,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138691650}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 686.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 164302789}
-  m_Father: {fileID: 665364577}
+  m_Father: {fileID: 1594295944}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -305, y: 0}
+  m_AnchoredPosition: {x: -357.26898, y: 9.614258}
   m_SizeDelta: {x: 289.18335, y: 149.90073}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &138691652
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 138691652}
+      - m_Target: {fileID: 1594295945}
         m_MethodName: MOCLEAR
         m_Mode: 1
         m_Arguments:
@@ -446,8 +446,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 138691651}
-  - {fileID: 1871707073}
+  - {fileID: 1594295944}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -683,6 +682,65 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1594295943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1594295944}
+  - component: {fileID: 1594295945}
+  m_Layer: 0
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1594295944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594295943}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 52.268982, y: -9.614258, z: -686.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 138691651}
+  - {fileID: 1871707073}
+  m_Father: {fileID: 665364577}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1594295945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594295943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bdeae940834f1f4dac3e365a2634208, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weeks: 1
+  MoClear: "\uB3C4\uB825 \uC815\uC81C"
+  MoDevelop: "\uB3C4\uB825 \uAC1C\uBC1C"
+  MoPractice: "\uB3C4\uC220 \uC5F0\uB9C8"
+  MoCycle: "\uC6B4\uAE30\uC870\uC2DD"
+  PhyPractice: "\uCCB4\uC220 \uB2E8\uB828"
+  SwordsMS: "\uAC80\uC220 \uB2E8\uB828"
+  SpearsMS: "\uCC3D\uC220 \uB2E8\uB828"
+  BongMS: "\uBD09\uC220 \uB2E8\uB828"
+  CalcStudy: "\uC0C1\uC220 \uACF5\uBD80"
+  BookRead: "\uB3C4\uC11C \uC77D\uAE30"
+  Instrument: "\uC545\uAE30 \uC5F0\uC8FC"
+  PoemWrite: "\uC2DC \uC4F0\uAE30"
+  drawing: "\uADF8\uB9BC \uADF8\uB9AC\uAE30"
 --- !u!1 &1871707072
 GameObject:
   m_ObjectHideFlags: 0
@@ -710,17 +768,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871707072}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 686.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 796832708}
-  m_Father: {fileID: 665364577}
+  m_Father: {fileID: 1594295944}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 385, y: 0}
+  m_AnchoredPosition: {x: 332.73096, y: 9.614258}
   m_SizeDelta: {x: 289.18335, y: 149.90073}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1871707074
@@ -792,7 +850,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1871707074}
+      - m_Target: {fileID: 1594295945}
         m_MethodName: MODEVELOP
         m_Mode: 1
         m_Arguments:

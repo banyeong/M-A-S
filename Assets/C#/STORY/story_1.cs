@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [System.Serializable]
-public class Dialogue
+public class Dialogue //집어 넣을 대화와 캐릭터이미지, 나중에 배경도 선언 하면 배경 바뀌게도 할 수 있을 듯함.
 {
     [TextArea]
     public string dialogue;
@@ -18,23 +18,12 @@ public class story_1 : MonoBehaviour //아무런 조건도 충족하지 못함
 
     [SerializeField] private SpriteRenderer sprite_Charcter;
     [SerializeField] private SpriteRenderer sprite_dialogue;
-    [SerializeField] private TextMeshPro txt_dialogue;
-
+    [SerializeField] private TextMeshProUGUI txt_dialogue;
+    
     private bool isDialogue = false;
     private int count = 0;
 
     [SerializeField] private Dialogue[] dialogue;
-
-    public void ShowDialogue() // 대화창 보이게함
-    {
-        sprite_dialogue.gameObject.SetActive(true);
-        sprite_Charcter.gameObject.SetActive(true);
-        txt_dialogue.gameObject.SetActive(true);
-
-        count = 0;
-        isDialogue = true;
-        NextDialogue();
-    }
 
     public void NextDialogue() //대화활성화
     {
@@ -50,7 +39,7 @@ public class story_1 : MonoBehaviour //아무런 조건도 충족하지 못함
     {
         if(isDialogue)
         {
-            if(Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0))
             {
                 if(count < dialogue.Length)
                 {
